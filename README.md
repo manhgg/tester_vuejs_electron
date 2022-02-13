@@ -3,21 +3,18 @@
 ## Project setup
 ```
 npm install
+npm install -g vue/cli@latest
+npm install -g electron@latest
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run electron:serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run electron:build
 ```
 
 ### Customize configuration
